@@ -77,7 +77,7 @@ public class TesteSistema {
     }
 
     @Test
-    public void playGuitarThemPlayDrums() throws InterruptedException {
+    public void playGuitarThenPlayDrums() throws InterruptedException { //toca a musica sultans of swing com a faixa da guitarra e troca para a faixa da bateria
         webdriver.get("https://www.songsterr.com/a/wsa/dire-straits-sultans-of-swing-tab-s30084t2");
         WebElement botao = webdriver.findElement(
                 By.xpath("/html/body/div/div/section/aside/div[2]/div[1]/button"));
